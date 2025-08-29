@@ -391,4 +391,4 @@ docker-compose up --build
 
 If you want, I can tailor this README to your exact folders, scripts, and current routes from your repo—just paste your server/routes and package.json scripts and I’ll wire them in.
 
-
+This project is not open-source licensed. All rights reserved © 2025 Sumit .
