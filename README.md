@@ -68,7 +68,6 @@ Other: Multer / cloud storage SDK for uploads, Nodemailer for emails
 
 DevOps: Docker, docker-compose
 
-📁 Monorepo Structure
 knewvator/
 ├─ client/                 # React app
 │  ├─ src/
@@ -95,6 +94,7 @@ knewvator/
 ├─ docker-compose.yml
 ├─ .env.example
 └─ README.md
+
 
 ⚙️ Environment Variables
 
