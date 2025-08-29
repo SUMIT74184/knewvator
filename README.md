@@ -68,34 +68,6 @@ Other: Multer / cloud storage SDK for uploads, Nodemailer for emails
 
 DevOps: Docker, docker-compose
 
-knewvator/
-├─ client/                 # React app
-│  ├─ src/
-│  │  ├─ components/
-│  │  ├─ pages/
-│  │  ├─ store/            # state (Zustand/Redux)
-│  │  ├─ hooks/
-│  │  ├─ utils/
-│  │  └─ services/         # API clients
-│  └─ vite.config.ts | package.json
-│
-├─ server/                 # Express API
-│  ├─ src/
-│  │  ├─ config/           # env, db, cloud, mail
-│  │  ├─ models/           # Mongoose schemas
-│  │  ├─ controllers/
-│  │  ├─ routes/           # /auth /courses /payments ...
-│  │  ├─ middlewares/      # auth, roles, rateLimit, errors
-│  │  ├─ services/         # business logic (payments, mail)
-│  │  ├─ utils/            # helpers, validators
-│  │  └─ app.ts | server.ts
-│  └─ package.json
-│
-├─ docker-compose.yml
-├─ .env.example
-└─ README.md
-
-
 ⚙️ Environment Variables
 
 Copy .env.example to backend and frontend as needed.
